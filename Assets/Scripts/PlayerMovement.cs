@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -71,6 +72,13 @@ public class PlayerMovement : MonoBehaviour
             isJumping = false; // Si el personaje colisiona con el suelo, indica que ya no esta saltando.
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other){
+        if (other.CompareTag("Left Wall")){
+            SceneManager.LoadScene(2);
+        }
+    }
+    
 
     public void AnimCrunch(int animation){
         if(animation==2){
