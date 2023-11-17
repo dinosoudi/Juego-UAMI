@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Agacharse
-        if (isGrounded && Input.GetKey(KeyCode.DownArrow))
+        if (isGrounded && Input.GetKey(KeyCode.S))
         {
             isCrouching = true;
         }
@@ -70,6 +70,9 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Floor"))
         {
             isJumping = false; // Si el personaje colisiona con el suelo, indica que ya no esta saltando.
+            isGrounded = true;
+        }else{
+            isGrounded=false;
         }
     }
 
