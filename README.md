@@ -7,6 +7,7 @@
 <br><br>
  :file_folder: __Link del juego__:<br>
 [Jugar el juego](https://soudi.itch.io/uami-carrera)<br>
-El personaje salta al presionar espacio y se agacha al presionar la flecha hacia abajo.<br>
-En los minijuegos presiona la tecla que sale en el texto, a veces es la tecla 'S' y a veces la tecla 'Espacio'<br>
+Al ser un juego family friendly, el juego es simple de jugar, con solo 2 teclas.<br>
+El personaje salta al presionar 'espacio' y se agacha al presionar 's'. 
+En los minijuegos presiona la tecla que sale en el texto, a veces es la tecla 'S' y a veces la tecla 'Espacio'.<br>
  
